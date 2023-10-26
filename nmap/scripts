@@ -1,0 +1,11 @@
+# Nmap 7.94 scan initiated Mon Oct 23 04:38:19 2023 as: nmap -sN --script=exploit -oN nmap/scripts blog.thm
+Nmap scan report for blog.thm (10.10.132.142)
+Host is up (0.073s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE         SERVICE
+22/tcp  open|filtered ssh
+80/tcp  open|filtered http
+139/tcp open|filtered netbios-ssn
+445/tcp open|filtered microsoft-ds
+
+# Nmap done at Mon Oct 23 04:39:12 2023 -- 1 IP address (1 host up) scanned in 52.76 seconds
